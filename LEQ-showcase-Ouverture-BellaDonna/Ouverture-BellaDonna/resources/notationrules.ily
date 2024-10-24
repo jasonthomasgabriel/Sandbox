@@ -25,7 +25,7 @@
   \override Score.TextSpanner.font-size = #-0.5
 
   % More comfortable staff distance for leadsheets
-  \override Score.VerticalAxisGroup.default-staff-staff-spacing.basic-distance = #14
+  %\override Score.VerticalAxisGroup.default-staff-staff-spacing.basic-distance = #13
   
   % If you want to see barnumbers on every bar for editorial purposes
   % \override Score.BarNumber.break-visibility = ##(#t #t #t)
