@@ -3,7 +3,7 @@
  % Owner       : Jason Thomas Gabriel                           %
  % ------------------------------------------------------------ %
  % Start date  : 15-10-2024 (dd-mm-yyyy)                        %
- % Last edit   : 15-10-2024 (dd-mm-yyyy)                        %
+ % Last edit   : 16-10-2024 (dd-mm-yyyy)                        %
  % ------------------------------------------------------------ %
  % License     : Attribution-NonCommercial-ShareAlike           %
  %               4.0 International                              %
@@ -13,11 +13,11 @@
  %% github.com/jasonthomasgabriel/LilyPond-Engraving-Quickstart %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\version "2.25.20" 
+\version "2.25.20"
 
 % Scores cannot be empty (when using partCombine), these variables are a spacer for all unused parts.
 % For quick testing of your setup, you could replace these spacers with some music or lyrics in curly brackets.
-no_music = \skip 4
+no_music = \skip 4 
 no_lyrics = \lyricmode {}
 
 % A short print reference for yourself
@@ -37,7 +37,7 @@ fileversionreferencetracker = "ref: #1"
   % Staff size
     % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.24/Documentation/notation/setting-the-staff-size
     % Set staff size for main book score below. Size 14 is a nice starting point
-      #(set-global-staff-size 14)
+      #(set-global-staff-size 13)
       
     % Set staff size for books of individual parts - when using the Instrument Library. Size 16.8 is a nice starting point
       staffsize_parts = 16.8
