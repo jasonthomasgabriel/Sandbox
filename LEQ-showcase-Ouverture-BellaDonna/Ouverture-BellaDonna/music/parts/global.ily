@@ -5,6 +5,17 @@
 
 \version "2.24.1"
 
+% \layout {
+%   \context {
+%     \Staff
+%     \remove Staff_highlight_engraver
+%   }
+%   \context {
+%     \Score
+%     \consists Staff_highlight_engraver
+%   }
+% }
+
 global = {
   \key a \major
   \time 4/4
@@ -18,7 +29,8 @@ global = {
   %\override Staff.BreathingSign.text = \markup { \musicglyph "rcomma" } % Back to default for later use
   
   \mark \default
-  \skip 1*2 | %5-6
+  \skip 1 | %5
+  \skip 1 | %6
   \time 6/4
   \skip 1. | %7
   \time 4/4
@@ -29,8 +41,17 @@ global = {
   \skip 4*5 | %10
   \bar "||"
   
+  %\break
   \mark \default
   \time 4/4
-  \skip 1*6
+  \skip 1 | %11
+  \skip 1 | %12
+  \skip 1*4
+  \time 2,2,2,2,2,2 6/4
+  \skip 1. | %17
+  \bar "||"
   
+  \mark \default
+  \time 4/4
+  \skip 1*2 | %18-19
 }
