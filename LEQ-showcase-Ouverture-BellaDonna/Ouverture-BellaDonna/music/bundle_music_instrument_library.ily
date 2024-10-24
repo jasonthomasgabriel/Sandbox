@@ -6,7 +6,7 @@
 \version "2.24.1"
 
 % Indentation - set for WITH instrument names
-  \include "../resources/indentation_with_instrumentnames.ily"
+  \include "../resources/indentation_no_instrumentnames.ily"
 
 % User Instrument names
   % Set instrument names for the user instruments in the file below
