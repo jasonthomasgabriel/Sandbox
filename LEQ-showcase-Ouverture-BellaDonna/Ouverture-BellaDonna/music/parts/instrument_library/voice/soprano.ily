@@ -18,7 +18,7 @@
     
     \barNumberCheck 5
     
-    \staffHighlight "lightsteelblue" % Editorial - Esus2/G#-chord should be an Eadd9/G#. Figure a way to fix it at some point
+    \staffHighlight "yellow" % Editorial - Esus2/G#-chord should be an Eadd9/G#. Figure a way to fix it at some point
     e8 16 16 ~ 8 a16 16 ~ 8 e r8 cs16 d | %5
     \stopStaffHighlight
     e8 16 16 ~ 8 a16 16 4 r8. cs,16 | %6
