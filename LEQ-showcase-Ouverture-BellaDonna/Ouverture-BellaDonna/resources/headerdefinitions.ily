@@ -99,7 +99,7 @@ cueheadermarkup = #(define-markup-command (cueheadermarkup layout props arg)
      (interpret-markup layout (prepend-alist-chain 'dash #t props)
        #{ \markup { #dashthisup } #}))
   
-  bookTitleMarkup = \markup {
+  bookTitleMarkup = \markup {    
     \column {
       \fill-line {
         {\null}
@@ -112,6 +112,17 @@ cueheadermarkup = #(define-markup-command (cueheadermarkup layout props arg)
         {\null}
         { \concat { \italic { \fromproperty #'header:productiontitle \hspace #1 } \fromproperty #'header:bigsongnumber }}
       }
+      
+      % Foreword section (experimental) %
+      \vspace #0.25
+      \line {
+        \override #'(line-width . 110)
+        \smaller
+        \italic \justify-field #'header:foreword
+      }
+      \vspace #0.75
+      % End of foreword section %
+      
       \fill-line { \italic \fromproperty #'header:dedication }
       \vspace #0.1 % That's a little close, but I quite like the dedication to rest on the title very snugly.
       \column {
