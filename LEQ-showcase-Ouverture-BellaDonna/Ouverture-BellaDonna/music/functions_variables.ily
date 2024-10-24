@@ -54,3 +54,35 @@ reminderStacc = \markup {\line{\italic "(stacc.)"}}
 nonStacc = \markup {\line{\italic "non stacc."}}
 
 sempre_legato = \markup {\line{\italic "sempre legato"}}
+
+% Dynamic symbol + "parlando" 
+  dynamic_parlando = #(define-event-function (parser location dynamicMark)
+                              (ly:event?)
+                              (make-dynamic-script #{
+                              \markup {
+                                  \concat {
+                                  \dynamic #(ly:music-property dynamicMark 'text)
+                                  \hspace #0.5
+                                  \normal-text \smaller "(parlando)"
+                                  \hspace #-13.5
+                                  }
+                              }
+                              #}
+                              )
+                              )
+  
+% Dynamic symbol + "cantado" 
+  dynamic_cantado = #(define-event-function (parser location dynamicMark)
+                              (ly:event?)
+                              (make-dynamic-script #{
+                              \markup {
+                                  \concat {
+                                  \dynamic #(ly:music-property dynamicMark 'text)
+                                  \hspace #0.5
+                                  \normal-text \smaller "(cantado)"
+                                  \hspace #-13.5
+                                  }
+                              }
+                              #}
+                              )
+                              )
