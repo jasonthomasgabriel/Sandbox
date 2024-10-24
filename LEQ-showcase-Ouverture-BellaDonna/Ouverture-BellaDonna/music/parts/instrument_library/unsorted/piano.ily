@@ -26,7 +26,7 @@
     \barNumberCheck 11
     
     < a e' gs >4\f \tuplet 3/2 { < a d fs >4 a8 } < a b e >4 ~ \tuplet 3/2 { 8 a b } | %11
-    \staffHighlight "lightblue" % Editorial - appogiatura is missing from piano
+    \staffHighlight "yellow" % Editorial - appogiatura is missing from piano
     << { gs'8 a16 gs fs8 gs } \\ { < a, e' >4 < a d > } >> < a b e >4 \tuplet 3/2 { < cs e >8 < b e > < a e' > } | %12
     \stopStaffHighlight
     < a d a' >4\p < cs e a > < a e fs' > < a ds fs > | %13
