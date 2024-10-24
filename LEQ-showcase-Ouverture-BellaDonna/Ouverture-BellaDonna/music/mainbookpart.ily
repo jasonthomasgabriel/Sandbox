@@ -3,7 +3,7 @@
 %%%% -----------------------------------------------------------
 %%%% github.com/jasonthomasgabriel/LilyPond-Engraving-Quickstart
 
-\version "2.24.1"
+\version "2.25.20"
 
 \bookpart {
   \header {
@@ -12,7 +12,7 @@
     \include "headers.ily"
 
     % Set the instrument and/or part name below
-    instrument = "Leadsheet"
+    instrument = "Vocal / Piano"
   }
 
   % Score 
