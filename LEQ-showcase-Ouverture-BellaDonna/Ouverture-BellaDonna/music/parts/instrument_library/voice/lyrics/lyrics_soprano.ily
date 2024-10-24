@@ -12,4 +12,17 @@
     
     uit mijn land
     ver -- ban -- nen, ook al
+    kan ik nu weer te -- rug. Ik
+    zal moet -- en ver -- ge -- ten wie ik ben. Bel -- la
+    is niet meer, en kan niet meer, en
+    zal niet meer zijn wie ze
+    \markup { \italic "was." } Don -- na
+    
+    
+    is nu hier ge -- bo -- ren.
+    Dit is de prijs die ik be -- taal. Zo
+    lang ik leef moet ik zo ver -- der
+    gaan. Dus waar -- om zou ik nog dro -- men, van wat
+    was, maar niet meer is?
+    Nooit meer is. Ik heb een
   }
