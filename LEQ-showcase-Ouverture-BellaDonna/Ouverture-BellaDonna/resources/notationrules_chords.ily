@@ -19,6 +19,9 @@
     <c e g b d'>1-\markup { \super "maj9" }
     <c e g b d' f' a'>1-\markup { \super "maj13" }
     <c e g b d' fs'>1-\markup { \super "maj9" \hspace #0.3 \super { \sharp "11" } }
+    
+    % Super specific workarounds to get the chord I want... Lilypond, why????
+    <a,, b,, e, gs, d>1-\markup { \super "maj7" \hspace #0.3 \super { "sus2" } "/D" }
   }
   
   chExceptions = #(append
