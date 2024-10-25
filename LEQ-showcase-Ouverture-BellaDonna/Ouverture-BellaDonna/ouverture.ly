@@ -37,7 +37,7 @@ fileversionreferencetracker = "ref: #1"
   % Staff size
     % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.24/Documentation/notation/setting-the-staff-size
     % Set staff size for main book score below. Size 14 is a nice starting point
-      #(set-global-staff-size 13)
+      #(set-global-staff-size 14)
       
     % Set staff size for books of individual parts - when using the Instrument Library. Size 16.8 is a nice starting point
       staffsize_parts = 16.8
@@ -62,7 +62,7 @@ fileversionreferencetracker = "ref: #1"
   % Main book
     \book {
       % Optional cover page (uncomment if desired)
-        % \include "resources/coverpagebookpart.ily"
+        \include "resources/coverpagebookpart.ily"
       % Main book
         \include "music/mainbookpart.ily"
     }
