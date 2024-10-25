@@ -54,4 +54,26 @@ global = {
   \mark \default
   \time 4/4
   \skip 1*2 | %18-19
+  \time 6/4
+  \skip 1. | %20
+  \time 4/4
+  \skip 1*2 | %21-22
+  \bar "||"
+  
+  \mark \default
+  \key g \major
+  \skip 1*4 | %23-26
+  \bar "||"
+  
+  \barNumberCheck 27
+  
+  \mark \default
+  \key a \major
+  \time 4/4
+  \skip 1 | %27
+  \skip 1 | %28
+  \skip 1*4
+  \time 2,2,2,2,2,2 6/4
+  \skip 1. | %33
+  \bar "|."
 }
