@@ -30,8 +30,13 @@
     
     \barNumberCheck 11
     
-    <a,, b,, e, gs, d>4 d a2:sus2 | %11
-    
+    a4:sus2.7+/d d a2:sus2 | %11
+    a4:sus2.7+/d d/fs a2:sus2 | %12
+    d4/fs a/e b:sus4.7 b:7/ds | %13
+    b2:m7.5-/d e4:sus4 e | %14
+    a4:sus2.7+/d d a2:sus2 | %15
+    a4:sus2.7+/d d/fs a2:sus2 | %16
+    b4:m a/cs < d fs a e' >1 | %17
     
   }
 
