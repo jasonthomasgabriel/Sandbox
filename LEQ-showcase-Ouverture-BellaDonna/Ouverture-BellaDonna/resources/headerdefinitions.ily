@@ -207,6 +207,7 @@ cueheadermarkup = #(define-markup-command (cueheadermarkup layout props arg)
 
   oddFooterMarkup = \markup {
     \column {
+      \vspace #0.5
       \fill-line {
         %% Tagline header field only on first page in each bookpart.
         \if \on-first-page-of-part \smaller \smaller \italic \fromproperty #'header:tagline
