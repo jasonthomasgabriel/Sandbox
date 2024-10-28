@@ -5,7 +5,7 @@
 
 \version "2.24.1"
 
-% Indentation - set for WITH instrument names
+% Indentation - set for NO instrument names
   \include "../resources/indentation_no_instrumentnames.ily"
 
 % User Instrument names
