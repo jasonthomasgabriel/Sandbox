@@ -51,7 +51,7 @@
     c2 b:m7 | %23
     a2:m7 g | %24
     c2 b:m7 | %25
-    bf2:7- e4:sus4 e | %26
+    bf2:7+ e4:sus4 e | %26
     
     \barNumberCheck 27
     
