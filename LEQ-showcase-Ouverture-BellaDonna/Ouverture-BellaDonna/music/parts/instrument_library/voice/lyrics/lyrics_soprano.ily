@@ -18,11 +18,24 @@
     zal niet meer zijn wie ze
     \markup { \italic "was." } Don -- na
     
-    
     is nu hier ge -- bo -- ren.
     Dit is de prijs die ik be -- taal. Zo
     lang ik leef moet ik zo ver -- der
     gaan. Dus waar -- om zou ik nog dro -- men, van wat
     was, maar niet meer is?
     Nooit meer is. Ik heb een
+    
+    nieuw -- e kans ge -- kre -- gen, en die
+    laat ik niet meer gaan. De
+    we -- reld zal ver -- ge -- ten wie ik was.
+    Een nieuw be -- gin wacht op mij.
+    
+    Don -- na
+    
+    is nu hier ge -- bo -- ren.
+    Dit is de prijs die ik be -- taal. Zo
+    lang ik leef moet ik zo ver -- der
+    gaan. Dus waar -- om zou ik nog dro -- men, van wat
+    was, maar niet meer is?
+    Nooit meer is.
   }
