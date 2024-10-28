@@ -18,15 +18,15 @@
     
     \barNumberCheck 5
     
-    \staffHighlight "yellow" % Editorial - Esus2/G#-chord should be an Eadd9/G#. Figure a way to fix it at some point
+    %\staffHighlight "yellow" % Editorial - Esus2/G#-chord should be an Eadd9/G#. Figure a way to fix it at some point
     e8 16 16 ~ 8 a16 16 ~ 8 e r8 cs16 d | %5
-    \stopStaffHighlight
+    %\stopStaffHighlight
     e8 16 16 ~ 8 a16 16 4 r8. cs,16 | %6
     e8 16 16 ~ 8 16 16 8 r8 \tuplet 3/2 { r8 e a, } fs'4\mf \breathe fs8\tenuto\f gs\tenuto | %7
     a8 16 16 ~ 8 gs \tuplet 3/2 { r8 gs fs } fs8 gs | %8
     \tuplet 3/2 { a4 a fs } <>\mf\> \tuplet 3/2 { e8 e cs ~ } | %9
     \override TextScript.outside-staff-priority = #50
-    cs8 r8 \xNote { b4^\markup{\smaller "(parlando)"}\p } r4 r4 \breathe \once \override Hairpin.to-barline = ##f e8^\markup{\smaller "(cantado)"}\tenuto\mf\< a\tenuto | %10
+    cs8 r8 \xNote { b4^\markup{\smaller "(parlando)"}\f } r4 r4 \breathe \once \override Hairpin.to-barline = ##f e8^\markup{\smaller "(cantado)"}\tenuto\mf\< a\tenuto | %10
     \revert TextScript.outside-staff-priority
     
     \barNumberCheck 11
@@ -39,6 +39,28 @@
     gs8 fs16 gs ~ 16 a8. \tuplet 3/2 { r8 cs4 } r4 | %16
     r8 d,8\p ~ 16 cs8. a4 ~ 2 \breathe r16 cs16\mf cs d | %17
     
+    \barNumberCheck 18
+    
+    e8 16 16 ~ 8 a16 16 ~ 8 e r8 b16 cs | %18
+    d8 e16 d ~ 8 cs16 cs ~ 4 r8 r16 cs | %19
+    e8 16 16 ~ 8 16 16 8 r8 \tuplet 3/2 { r8 e a, } fs'4 r4 | %20
+    r8 cs16 d ~ 8 a'16 a ~ 4 r4 | %21
+    \tuplet 3/2 { cs,4 d b ~ } b4 r4 | %22
+    
+    \barNumberCheck 23
+    
+    R1*3 | %23-25
+    r2 r4 \once \override Hairpin.to-barline = ##f e8\tenuto\reminderDynamic\mf\< a\tenuto | %26
+    
+    \barNumberCheck 27
+    
+    gs8\f fs16 gs ~ 8 a16 e ~ e a,8 r16 \tuplet 3/2 { a8 e' a } | %27
+    gs8 fs16 gs ~ 16 a r16 a ~ a4 r8 e8 | %28
+    d8 cs16 a' ~ 8 cs, b d b fs' | %29
+    r8 e8\mf ~ 4 r4 \once \override Hairpin.to-barline = ##f \tuplet 3/2 { r8 e8\tenuto\< a\tenuto } | %30
+    gs8\f fs16 gs ~ 8 a16 e ~ 16 a,8. \tuplet 3/2 { r8 e' a } | %31
+    gs8 fs16 gs ~ 16 a8. \tuplet 3/2 { r8 cs4 } r4 | %32
+    r8 d,8\p ~ 16 cs8. a1 | %33
     
   }
 
