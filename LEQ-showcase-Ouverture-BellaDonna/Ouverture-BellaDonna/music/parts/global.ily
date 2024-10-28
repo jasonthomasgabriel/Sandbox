@@ -28,6 +28,7 @@ global = {
   
   %\override Staff.BreathingSign.text = \markup { \musicglyph "rcomma" } % Back to default for later use
   
+  \tag #'score {\break}
   \mark \default
   \skip 1 | %5
   \skip 1 | %6
@@ -41,7 +42,7 @@ global = {
   \skip 4*5 | %10
   \bar "||"
   
-  %\break
+  \tag #'score {\break}
   \mark \default
   \time 4/4
   \skip 1 | %11
@@ -51,6 +52,7 @@ global = {
   \skip 1. | %17
   \bar "||"
   
+  \tag #'score {\break}
   \mark \default
   \time 4/4
   \skip 1*2 | %18-19
@@ -60,6 +62,7 @@ global = {
   \skip 1*2 | %21-22
   \bar "||"
   
+  \tag #'score {\break}
   \mark \default
   \key g \major
   \skip 1*4 | %23-26
@@ -67,6 +70,7 @@ global = {
   
   \barNumberCheck 27
   
+  \tag #'score {\break}
   \mark \default
   \key a \major
   \time 4/4
