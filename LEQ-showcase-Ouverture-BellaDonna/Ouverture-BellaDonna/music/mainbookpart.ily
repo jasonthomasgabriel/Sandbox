@@ -6,6 +6,11 @@
 \version "2.25.20"
 
 \bookpart {
+  \paper {
+   % Depending on if your first page has to be a spread or a singular facing page, you could try some options here.
+   % bookpart-level-page-numbering = ##t
+   % first-page-number = #2
+  }
   \header {
     % Headers are centralised (to make things easier when dealing with multiple parts).
     % If needed a header can be overwritten by restating below the include-file.
