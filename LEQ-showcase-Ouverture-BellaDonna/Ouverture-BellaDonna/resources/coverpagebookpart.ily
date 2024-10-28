@@ -55,7 +55,7 @@
 
 }
 
-% If a blank spage is required for pageturn optimalisation, uncomment below.
+% % If a blank spage is required for pageturn optimalisation, uncomment below.
 % \bookpart {
 %   \paper {
 %     % Prevent coverpage from taking up a page number
