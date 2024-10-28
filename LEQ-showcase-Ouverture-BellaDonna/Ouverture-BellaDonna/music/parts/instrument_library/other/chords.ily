@@ -38,6 +38,30 @@
     a4:sus2.7+/d d/fs a2:sus2 | %16
     b4:m a/cs < d fs a e' >1 | %17
     
+    \barNumberCheck 18
+    
+    a2 a/e | %18
+    d2/a a | %19
+    a2:7+ a:7+/cs <d fs a e'>2 | %20
+    b2:m7 a/cs | %21
+    e2:sus4 e | %22
+    
+    \barNumberCheck 23
+    
+    c2 b:m7 | %23
+    a2:m7 g | %24
+    c2 b:m7 | %25
+    bf2:7- e4:sus4 e | %26
+    
+    \barNumberCheck 27
+    
+    a4:sus2.7+/d d a2:sus2 | %27
+    a4:sus2.7+/d d/fs a2:sus2 | %28
+    b4:m a/cs <d fs a e'>2 | %29
+    e2:sus4 e | %30
+    a4:sus2.7+/d d a2:sus2 | %31
+    a4:sus2.7+/d d/fs a2:sus2 | %32
+    b4:m a/cs <d fs a e'>1
   }
 
 % Part definitions
