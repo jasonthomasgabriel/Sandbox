@@ -3,7 +3,7 @@
  % Owner       : Jason Thomas Gabriel                           %
  % ------------------------------------------------------------ %
  % Start date  : 15-10-2024 (dd-mm-yyyy)                        %
- % Last edit   : 16-10-2024 (dd-mm-yyyy)                        %
+ % Last edit   : 28-10-2024 (dd-mm-yyyy)                        %
  % ------------------------------------------------------------ %
  % License     : Attribution-NonCommercial-ShareAlike           %
  %               4.0 International                              %
@@ -13,7 +13,7 @@
  %% github.com/jasonthomasgabriel/LilyPond-Engraving-Quickstart %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\version "2.25.20" 
+\version "2.25.20"
 
 % Scores cannot be empty (when using partCombine), these variables are a spacer for all unused parts.
 % For quick testing of your setup, you could replace these spacers with some music or lyrics in curly brackets.
