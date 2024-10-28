@@ -13,7 +13,7 @@
  %% github.com/jasonthomasgabriel/LilyPond-Engraving-Quickstart %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\version "2.25.20"
+\version "2.25.20" 
 
 % Scores cannot be empty (when using partCombine), these variables are a spacer for all unused parts.
 % For quick testing of your setup, you could replace these spacers with some music or lyrics in curly brackets.
@@ -40,7 +40,7 @@ fileversionreferencetracker = "ref: #1"
       #(set-global-staff-size 14)
       
     % Set staff size for books of individual parts - when using the Instrument Library. Size 16.8 is a nice starting point
-      staffsize_parts = 16.8
+      staffsize_parts = 16
   
   % Fonts
     % House fonts (disable when not available on your machine)
