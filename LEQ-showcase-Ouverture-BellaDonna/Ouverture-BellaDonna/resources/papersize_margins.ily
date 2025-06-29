@@ -12,4 +12,12 @@
   bottom-margin = 7\mm
   left-margin = 15\mm
   right-margin = 12\mm
+  annotate-spacing = ##t
+  markup-system-spacing.basic-distance = #5
+  top-system-spacing.basic-distance = #12
+  last-bottom-spacing.minimum-distance = #12
+  
+  ragged-bottom = ##t
+  ragged-last-bottom = ##f
+  system-system-spacing.basic-distance = #25
 }
