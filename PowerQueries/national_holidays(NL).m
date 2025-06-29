@@ -57,7 +57,7 @@ let
     // Optional column to make merging with other tables easier
     AddIsFeestdag = Table.AddColumn(ExpandRecords, "IsFeestdag", each true, type logical),
 
-    // Sekect and sort columns
+    // Select and sort columns
     Result = Table.SelectColumns(AddIsFeestdag, {"Datum", "Naam", "IsFeestdag"}),
     Sorted = Table.Sort(Result, {{"Datum", Order.Ascending}})
 in
